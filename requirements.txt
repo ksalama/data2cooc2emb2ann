@@ -1,0 +1,6 @@
+apache-beam[gcp]
+tensorflow==1.14.0
+python-snappy
+google_cloud_bigquery
+pandas
+annoy
