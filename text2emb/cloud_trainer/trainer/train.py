@@ -236,8 +236,8 @@ class HParams():
     pass
 
 params  = HParams()
-params.train_data_files = "{}/cooc-00000.tfrecords".format(COOC_DIR)
-params.eval_data_files = "{}/cooc-000000.tfrecords".format(COOC_DIR)
+params.train_data_files = "{}/cooc-00000-*.tfrecords".format(COOC_DIR)
+params.eval_data_files = "{}/cooc-00000-*.tfrecords".format(COOC_DIR)
 params.vocab1_file = os.path.join(COOC_DIR,'vocab.txt')
 params.vocab2_file = os.path.join(COOC_DIR,'vocab.txt')
 params.embedding_size = 128
