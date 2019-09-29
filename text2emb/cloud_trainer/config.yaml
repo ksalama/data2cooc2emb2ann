@@ -1,0 +1,9 @@
+trainingInput:
+  scaleTier: CUSTOM
+  masterType: complex_model_m
+  workerType: complex_model_m_v100
+  parameterServerType: large_model
+  workerCount: 9
+  parameterServerCount: 3
+  runtimeVersion: '1.14'
+  pythonVersion: '3.5'
